@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="bardroid.core"
+    android:versionCode="1"
+    android:versionName="1.0" >
+<uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+	<uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+	<uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+<uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE" />
+<uses-permission android:name="android.permission.READ_INTERNAL_STORAGE"/>
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="16" />
+    
+    
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Holo" >
+        
+        <activity
+            android:name="in.MainActivity"
+            android:label="@string/app_name" 
+            android:theme="@android:style/Theme.Holo"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <activity android:name="com.google.ads.AdActivity"             
+android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize" />
+        
+        <activity android:name="in.About" 
+        android:label="@string/about_title" 
+        android:theme="@android:style/Theme.Holo.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+		
+        <activity android:name=".Info" 
+        android:label="@string/info" 
+        android:theme="@android:style/Theme.Holo.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+        
+		
+        <activity android:name="in.Init_admin" 
+        android:label="@string/init_admin_title" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		
+        <activity android:name="in.Init_user" 
+        android:label="@string/init_user_title" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+        
+        <activity android:name="in.Login" 
+        android:label="@string/login" 
+        android:theme="@android:style/Theme.Holo.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name="in.Logout" 
+        android:label="@string/logout_title" 
+        android:theme="@android:style/Theme.Holo.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name="in.DeleteAccount" 
+        android:label="@string/deleteacc" 
+        android:theme="@android:style/Theme.Holo.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name="in.Listaprueba" 
+        android:label="@string/logout_title" 
+        android:theme="@android:style/Theme.Holo.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name="in.Salir" 
+        android:label="@string/item6" 
+        android:theme="@android:style/Theme.Holo.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+		
+        <activity android:name="in.Join" 
+        android:label="@string/join_title" 
+        android:theme="@android:style/Theme.Holo.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+		
+        <activity android:name="in.Create" 
+        android:label="@string/create" 
+        android:theme="@android:style/Theme.Holo.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		
+        <activity android:name="config.Config0" 
+        android:label="@string/config_0_title" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+        <activity android:name="config.Config1" 
+        android:label="@string/config_1_title" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="config.Config1Alone" 
+        android:label="@string/config_1_title" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="config.Config2" 
+        android:label="@string/config_2_title" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="config.Config2Alone" 
+        android:label="@string/config_2_title" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="config.Config3" 
+        android:label="@string/config_3_title" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="config.Config35" 
+        android:label="@string/config_35_title" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="config.Config4" 
+        android:label="@string/config_4_title" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="config.Config41" 
+        android:label="@string/config_4_title" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="config.Config4Alone" 
+        android:label="@string/config_4_title" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="config.Config41Alone" 
+        android:label="@string/config_4_title" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		<activity android:name="config.Config5" 
+        android:label="@string/config_5_title" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name=".Salon" 
+        android:label="@string/salon" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name=".Lista"
+		android:label="@string/listabarra"
+		android:theme="@android:style/Theme.Holo.Dialog"
+		android:screenOrientation="portrait">
+		</activity>
+		
+		
+		<activity android:name="data.AddProd" 
+        android:label="@string/addprod" 
+        android:theme="@android:style/Theme.Holo.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name="data.AddCat" 
+        android:label="@string/addcat" 
+        android:theme="@android:style/Theme.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name="data.EditProd" 
+        android:label="@string/editprod" 
+        android:theme="@android:style/Theme.Holo.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name="data.EditCat" 
+        android:label="@string/editcat" 
+        android:theme="@android:style/Theme.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name="data.VerProd" 
+        android:label="@string/verprod" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name="data.VerCat" 
+        android:label="@string/vercat" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name="data.ModProd" 
+        android:label="@string/modprod" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name="data.ModCat" 
+        android:label="@string/modcat" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name="data.DelProd" 
+        android:label="@string/delprod" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name="data.DelCat" 
+        android:label="@string/delcat" 
+        android:theme="@android:style/Theme.Holo"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name=".Caja" 
+        android:label="@string/caja" 
+        android:theme="@android:style/Theme.Holo.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+		
+		<activity android:name=".Resumen" 
+        android:label="@string/resumen" 
+        android:theme="@android:style/Theme.Holo.Dialog"
+        android:screenOrientation="portrait">
+		</activity>
+        
+    </application>
+
+</manifest>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/textname" 
+        android:text="@string/prodname"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+         />
+    
+    <EditText 
+        android:id="@+id/editname"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/textname"
+        android:layout_height="wrap_content"
+        android:inputType="text" 
+     />
+    
+    <TextView 
+        android:id="@+id/textprecio" 
+        android:text="@string/prodprecio" 
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editname"/>
+    
+    <EditText 
+        android:id="@+id/editprecio"
+        android:layout_width="fill_parent"
+        android:layout_below="@id/textprecio" 
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:text="0"
+        
+        />
+
+    <Spinner
+	    android:id="@+id/spinner1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBottom="@+id/button1"
+	    android:layout_alignParentRight="true"
+	    android:spinnerMode="dropdown"
+	    android:layout_below="@+id/editprecio" />
+
+	<Button
+	    android:id="@+id/button1"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/editprecio"
+	    android:layout_centerHorizontal="true"
+	    android:text="Button"
+	    android:visibility="invisible" />
+
+	<Button
+	    android:id="@+id/save_button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_below="@+id/spinner1"
+	    android:text="@string/save" />
+
+	<Button
+	    android:id="@+id/cancel_button"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignBaseline="@+id/save_button"
+	    android:layout_alignBottom="@+id/save_button"
+	    android:layout_alignParentRight="true"
+	    android:text="@string/cancel" />
+	    
+</RelativeLayout>

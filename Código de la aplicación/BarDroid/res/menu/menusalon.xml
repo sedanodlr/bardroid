@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item android:id="@+id/item_caja"
+          android:title="@string/item1"
+          android:icon="@drawable/cash"
+          android:showAsAction="always" />
+    
+    <item android:id="@+id/item_config"
+          android:title="@string/item7"
+          android:icon="@drawable/tool"
+          android:showAsAction="always"
+          />
+    
+    <item android:id="@+id/item_caja2"
+          android:title="@string/item1"
+          android:showAsAction="never" />
+    
+    
+    <item android:id="@+id/item_info"
+          android:title="@string/item2" 
+          android:icon="@drawable/action_help"/>
+    
+    <item android:id="@+id/delete"
+          android:title="@string/deleteacc" 
+          android:icon="@drawable/action_help"/>
+    
+    <item android:id="@+id/item_salir2"
+          android:title="@string/item6"
+          android:showAsAction="never"
+          />
+    
+    <item android:id="@+id/item_salir"
+          android:title="@string/item6"
+          android:icon="@drawable/logo"
+          android:showAsAction="always"/>
+
+</menu>

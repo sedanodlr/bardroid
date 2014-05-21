@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/wood" >
+     <LinearLayout  
+               android:orientation="vertical"
+               android:id="@+id/ad_layout"
+               android:layout_width="fill_parent" 
+               android:layout_height="wrap_content"> 
+</LinearLayout> 
+
+    <RelativeLayout
+        android:id="@+id/main_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+         android:layout_below="@+id/ad_layout"
+        android:orientation="vertical" >
+    <TextView
+        android:id="@+id/textSelMes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:clickable="false"
+        android:gravity="center"
+        android:text="@string/config_2"
+        android:textSize="20dp" />
+
+    <TableLayout
+        android:id="@+id/tablaMesas"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/button1"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textSelMes"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tableRow0"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:layout_marginTop="15dp" >
+
+            <ImageView
+                android:id="@+id/mesa0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:layout_marginTop="15dp" >
+
+            <ImageView
+                android:id="@+id/mesa5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow2"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:layout_marginTop="15dp" >
+
+            <ImageView
+                android:id="@+id/mesa10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow3"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:layout_marginTop="15dp" >
+
+            <ImageView
+                android:id="@+id/mesa15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/tableRow4"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="20"
+            android:layout_marginTop="15dp" >
+
+            <ImageView
+                android:id="@+id/mesa20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/mesa24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:src="@drawable/trans_conf"
+                android:tag="trans"
+                android:visibility="visible" />
+        </TableRow>
+    </TableLayout>
+    
+
+    </RelativeLayout>
+    
+</RelativeLayout>

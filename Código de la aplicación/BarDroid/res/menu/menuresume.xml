@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/nono"
+        	android:title="Cancelar"
+          android:icon="@drawable/navigation_cancel"
+          android:showAsAction="always"
+          />
+    <item android:id="@+id/sisi"
+        android:title="Aceptar"
+          android:icon="@drawable/ok"
+          android:showAsAction="always"
+          />
+</menu>
